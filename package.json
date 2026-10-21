@@ -1,0 +1,9 @@
+{
+  "name": "office-town-mp",
+  "private": true,
+  "type": "module",
+  "description": "The multiplayer and chat relay of Office Town (deploy this folder on Railway)",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node server.mjs" },
+  "dependencies": { "ws": "^8.18.0" }
+}
